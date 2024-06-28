@@ -1,0 +1,318 @@
+Below are several sample user questions related to the MongoDB document provided, 
+and the corresponding MongoDB aggregation pipeline queries that can be used to fetch the desired data.
+Use them wisely.
+
+Question 1: What are the pre-requisites for the course "COMPSCI 223P"?
+Query:
+[
+    "CoursePrerequisiteTree",
+    [
+        {
+            "$match": {
+                "id": {
+                    "$regex": "^COMPSCI223P$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$project": {
+                "prerequisites": 1,
+                "_id": 0
+            }
+        }
+    ]
+]
+
+
+
+Question 2: In which terms the course "COMPSCI 223P" is offered?
+Answer: 
+[
+    "Courses",
+    [
+        {
+            "$match": {
+                "id": {
+                    "$regex": "^COMPSCI223P$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$project": {
+                "terms": 1,
+                "_id": 0
+            }
+        }
+    ]
+]
+
+
+Question 3: What are the pre-requisites for course "COMPSCI 223P" and when are they offered?
+Answer:
+[
+    "Courses",
+    [
+        {
+            "$match": {
+                "id": {
+                    "$regex": "^COMPSCI223P$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$lookup": {
+                "from": "CoursePrerequisiteTree",
+                "localField": "id",
+                "foreignField": "id",
+                "as": "prerequisites"
+            }
+        },
+        {
+            "$project": {
+                "terms": 1,
+                "prerequisites": 1,
+                "_id": 0
+            }
+        }
+    ]
+]
+
+Question 4: Which courses should I take first to do COMPSCI 223P later?
+Answer:
+[
+    "CoursePrerequisiteTree",
+    [
+        {
+            "$match": {
+                "id": {
+                    "$regex": "^COMPSCI223P$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$project": {
+                "prerequisites": 1,
+                "_id": 0
+            }
+        }
+    ]
+]
+
+
+Question 5: Number of students who have taken this course before whenever it was offered?
+
+
+Question 6: I"m planning to take course: "ANTHRO 132A" and I have already taken a course "PSYCH 7A", what are the other pre-requisites for taking the course?
+Answer:
+[
+    "CoursePrerequisiteTree",
+    [
+        {
+            "$match": {
+                "id": {
+                    "$regex": "^ANTHRO132A$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$unwind": "$prerequisites"
+        },
+        {
+            "$unwind": "$prerequisites"
+        },
+        {
+            "$match": {
+                "prerequisites": {
+                    "$regex": "PSYCH 7A",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$group": {
+                "_id": "$_id",
+                "id": { "$first": "$id" },
+                "filteredPrerequisites": { "$push": "$prerequisites" }
+            }
+        },
+        {
+            "$project": {
+                "id": 1,
+                "prerequisites": "$filteredPrerequisites",
+                "_id": 0
+            }
+        }
+    ]
+]
+
+
+
+Question 7: Are there any pre-requisite details for the course "AC ENG 23A"?
+Answer: 
+[
+    "CoursePrerequisiteTree",
+    [
+        {
+            "$match": {
+                "id": {
+                    "$regex": "^ACENG23A$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$project": {
+                "preRequisiteDetails": 1,
+                "_id": 0
+            }
+        }
+    ]
+]
+
+Question 8: What was the last term the course "COMPSCI 223P" is offered?
+Answer: 
+[
+    "Courses",
+    [
+        {
+            "$match": {
+                "id": {
+                    "$regex": "^COMPSCI223P$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$unwind": "$terms"
+        },
+        {
+            "$sort": {
+                "terms": -1
+            }
+        },
+        {
+            "$group": {
+                "_id": "$id",
+                "latestTerm": { "$first": "$terms" }
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "id": "$_id",
+                "latestTerm": 1
+            }
+        }
+    ]
+]
+
+Question 9: What are the courses offered in fall 2022?
+Answer:
+
+Question 10: Recommend me classes that will help me graduate?
+Answer:
+
+Question 11: When will the COMPSCI 222 is being offered?
+Answer: 
+[
+    "Courses",
+    [
+        {
+            "$match": {
+                "id": {
+                    "$regex": "^COMPSCI222P$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$unwind": "$terms"
+        },
+        {
+            "$sort": {
+                "terms": -1
+            }
+        },
+        {
+            "$group": {
+                "_id": "$id",
+                "latestTerm": { "$first": "$terms" }
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "id": "$_id",
+                "latestTerm": 1
+            }
+        }
+    ]
+]
+
+Question 12: When is Principles of Data Management being offered?
+[
+    "Courses",
+    [
+        {
+            "$match": {
+                "title": {
+                    "$regex": "^Principles of Data Management$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$unwind": "$terms"
+        },
+        {
+            "$sort": {
+                "terms": -1
+            }
+        },
+        {
+            "$group": {
+                "_id": "$id",
+                "latestTerm": { "$first": "$terms" }
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "id": "$_id",
+                "latestTerm": 1
+            }
+        }
+    ]
+]
+
+
+Question 12: When are prerequisites needed for Principles of Data Management ?
+[
+    "CoursePrerequisiteTree",
+    [
+        {
+            "$match": {
+                "title": {
+                    "$regex": "^Principles of Data Management$",
+                    "$options": "i"
+                }
+            }
+        },
+        {
+            "$project": {
+                "prerequisites": 1,
+                "_id": 0
+            }
+        }
+    ]
+]
+
+
+
+
+Each of these queries is designed to give the output of the collection name from the MongoDB based on the question asked by the user.

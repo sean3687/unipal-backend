@@ -1,0 +1,101 @@
+Name_of_professor,Quality_of_course,Difficulty_level_of_course,Would_take_again,Grade_received_in_course,Name_of_reviewer,Review_feedback_paragraph
+Dr. Alice Smith,3,4,No,5,Ronald Nelson,Dr. Smith's Biochemistry course is intense but fascinating. She connects biochemical concepts to real-world applications.
+Dr. Emma Wilson,3,3,Yes,2,Taylor Perez,Dr. Wilson's Statistics course is thorough and detailed. Her explanations are clear and she offers plenty of practical applications.
+Dr. Emma Wilson,1,3,Yes,2,Randy Smith,"Linear Algebra with Dr. Wilson is a tough course, but her structured approach helps a lot."
+Dr. Alice Smith,5,5,No,3,Matthew Velez,Dr. Smith makes Organic Chemistry challenging but rewarding.
+Prof. David Brown,1,2,Yes,2,Ryan Peck,Introduction to Psychology with Prof. Brown is very engaging.
+Dr. Alice Smith,3,3,Yes,1,Keith Rodriguez,Chemistry 101 with Dr. Smith is a solid introduction to the subject.
+Dr. Alice Smith,4,4,No,5,Julie Lee,Biochemistry with Dr. Smith is difficult but very insightful.
+Prof. Bob Johnson,5,5,No,2,Alexis Rogers,Prof. Johnson's Machine Learning course is excellent for understanding modern AI techniques.
+Prof. Bob Johnson,3,2,Yes,5,Angie Caldwell,Prof. Johnson's CS101 course is incredibly engaging. He uses practical examples that make the material relatable.
+Dr. Alice Smith,3,5,No,5,David Molina,Organic Chemistry with Dr. Smith is tough but manageable with her guidance.
+Prof. David Brown,1,3,Yes,5,Melissa Brown,Cognitive Science with Prof. Brown is insightful and engaging.
+Dr. Carol Lee,3,2,Yes,1,Stacy Carrillo,Prof. Johnson's teaching style in CS101 is interactive and engaging.
+Dr. Carol Lee,1,4,No,2,Karen Gibson,"Data Structures is a difficult course, but Prof. Johnson's clear explanations make it manageable."
+Prof. David Brown,4,4,No,2,Linda Cobb,Prof. Brown's Advanced Psychology course is highly educational.
+Dr. Carol Lee,1,2,Yes,2,Stephanie Harris,Prof. Johnson's CS101 course is incredibly engaging. He uses practical examples that make the material relatable.
+Dr. Carol Lee,1,5,No,3,Michelle Burns,Machine Learning with Prof. Johnson is challenging but very educational.
+Dr. Emma Wilson,5,3,Yes,4,Justin Hansen,Dr. Wilson ensures that students grasp the key concepts of Linear Algebra through practical examples.
+Dr. Emma Wilson,4,3,Yes,2,Laura Williams,Dr. Wilson ensures that students grasp the key concepts of Linear Algebra through practical examples.
+Dr. Emma Wilson,5,3,Yes,1,Mrs. Donna White,Dr. Wilson's Statistics course is challenging but rewarding.
+Dr. Alice Smith,3,5,No,1,Susan Bennett,Dr. Smith makes Organic Chemistry challenging but rewarding.
+Dr. Carol Lee,5,2,Yes,5,Cameron Irwin,Prof. Johnson's CS101 course is incredibly engaging. He uses practical examples that make the material relatable.
+Dr. Carol Lee,1,4,No,1,David Murray,"Data Structures is a difficult course, but Prof. Johnson's clear explanations make it manageable."
+Prof. Bob Johnson,3,5,No,1,Jennifer Miranda,Prof. Johnson's Machine Learning course is cutting-edge and informative. He integrates current research into his lectures.
+Prof. Bob Johnson,5,2,Yes,2,Kyle Warner,Prof. Johnson's CS101 course is incredibly engaging. He uses practical examples that make the material relatable.
+Dr. Emma Wilson,3,3,Yes,5,Nicole Parsons,Dr. Wilson ensures that students grasp the key concepts of Linear Algebra through practical examples.
+Dr. Carol Lee,3,2,Yes,1,Megan Flores,Prof. Johnson's CS101 course is incredibly engaging. He uses practical examples that make the material relatable.
+Prof. David Brown,2,2,Yes,1,Justin Vargas,Prof. Brown's teaching in Introduction to Psychology is excellent.
+Dr. Alice Smith,3,4,No,4,Teresa Powers,Dr. Smith's Biochemistry course is comprehensive and well-taught.
+Dr. Alice Smith,3,5,No,4,Paul Wells,Organic Chemistry with Dr. Smith is tough but manageable with her guidance.
+Prof. Bob Johnson,5,4,No,2,Jason Moreno,Prof. Johnson's Data Structures class is challenging but rewarding. His teaching style is interactive and he encourages problem-solving.
+Dr. Carol Lee,4,2,Yes,1,Sarah Davis,Prof. Johnson's CS101 course is incredibly engaging. He uses practical examples that make the material relatable.
+Dr. Carol Lee,3,4,No,4,Philip Ramsey,"Data Structures is a difficult course, but Prof. Johnson's clear explanations make it manageable."
+Prof. Bob Johnson,2,4,No,2,Colton Figueroa,Prof. Johnson's Data Structures class is challenging but rewarding. His teaching style is interactive and he encourages problem-solving.
+Prof. David Brown,4,3,Yes,2,Kristen Rowe,Cognitive Science with Prof. Brown is insightful and engaging.
+Prof. David Brown,4,3,Yes,4,Jose Crawford,Prof. Brown's Cognitive Science course is excellent for understanding the mind.
+Dr. Alice Smith,2,5,No,3,Angel Shields,Dr. Smith's Organic Chemistry course is demanding but very educational. Her labs are particularly helpful for understanding complex reactions.
+Dr. Carol Lee,4,5,No,5,Gary James,Machine Learning with Prof. Johnson is challenging but very educational.
+Prof. David Brown,1,3,Yes,2,Katherine Cummings,Cognitive Science with Prof. Brown is insightful and engaging.
+Prof. Bob Johnson,4,5,No,2,Joshua White,Prof. Johnson's Machine Learning course is excellent for understanding modern AI techniques.
+Dr. Emma Wilson,4,4,No,3,Ryan Hall,Dr. Wilson's Calculus I course is comprehensive and well-structured. She breaks down complex concepts into easily understandable segments.
+Prof. Bob Johnson,1,5,No,5,Mark Peck,Prof. Johnson's Machine Learning course is excellent for understanding modern AI techniques.
+Dr. Alice Smith,3,3,Yes,2,Alexandra Moreno,Dr. Smith's teaching in Chemistry 101 is clear and effective.
+Dr. Carol Lee,1,2,Yes,4,Brent Hernandez,Prof. Johnson's teaching style in CS101 is interactive and engaging.
+Prof. David Brown,1,4,No,1,Angela Chung,Prof. Brown's Advanced Psychology course is highly educational.
+Prof. Bob Johnson,1,5,No,1,Sarah Valdez,Prof. Johnson's Machine Learning course is cutting-edge and informative. He integrates current research into his lectures.
+Dr. Alice Smith,2,5,No,3,Mark Warner,Organic Chemistry with Dr. Smith is tough but manageable with her guidance.
+Dr. Alice Smith,5,4,No,1,Valerie Jacobson,Dr. Smith's Biochemistry course is intense but fascinating. She connects biochemical concepts to real-world applications.
+Prof. Bob Johnson,1,5,No,5,Benjamin Frost,Prof. Johnson's Machine Learning course is cutting-edge and informative. He integrates current research into his lectures.
+Dr. Carol Lee,4,2,Yes,5,Robert Nicholson,CS101 with Prof. Johnson is a great introductory course. He makes complex concepts easy to understand.
+Prof. Bob Johnson,4,5,No,1,Jasmine Mosley,Machine Learning with Prof. Johnson is challenging but very educational.
+Prof. Bob Johnson,1,5,No,1,Haley Davis,Prof. Johnson's Machine Learning course is cutting-edge and informative. He integrates current research into his lectures.
+Dr. Carol Lee,2,5,No,4,Donald Riddle,Prof. Johnson's Machine Learning course is cutting-edge and informative. He integrates current research into his lectures.
+Dr. Carol Lee,4,5,No,2,Kevin James,Prof. Johnson's Machine Learning course is cutting-edge and informative. He integrates current research into his lectures.
+Dr. Emma Wilson,4,4,No,3,Richard Moore,"This course is quite challenging, but Dr. Wilson's clear explanations and extra help sessions make it manageable."
+Dr. Carol Lee,4,2,Yes,3,Jill Juarez,Prof. Johnson's CS101 course is incredibly engaging. He uses practical examples that make the material relatable.
+Dr. Emma Wilson,4,4,No,5,Kayla Garcia,"This course is quite challenging, but Dr. Wilson's clear explanations and extra help sessions make it manageable."
+Prof. David Brown,2,2,Yes,2,Jason Maxwell,Prof. Brown's teaching in Introduction to Psychology is excellent.
+Prof. David Brown,3,2,Yes,3,Eric Snyder,Prof. Brown's Introduction to Psychology course is enlightening and very well-structured. He makes the subject matter very accessible.
+Dr. Alice Smith,4,5,No,2,Mr. David Wright,Dr. Smith makes Organic Chemistry challenging but rewarding.
+Prof. David Brown,5,2,Yes,2,Adam Foster,Introduction to Psychology with Prof. Brown is very engaging.
+Dr. Alice Smith,4,5,No,1,Frank Valentine,Organic Chemistry with Dr. Smith is tough but manageable with her guidance.
+Dr. Carol Lee,2,2,Yes,1,Michael Henry,CS101 with Prof. Johnson is a great introductory course. He makes complex concepts easy to understand.
+Dr. Alice Smith,5,5,No,3,Justin Vargas,Dr. Smith makes Organic Chemistry challenging but rewarding.
+Prof. David Brown,1,2,Yes,4,Eddie Schwartz,Prof. Brown's teaching in Introduction to Psychology is excellent.
+Dr. Alice Smith,4,3,Yes,3,Christian Henderson,Dr. Smith's Chemistry 101 class is foundational and well-taught. She ensures students understand the basics thoroughly.
+Dr. Alice Smith,3,4,No,3,Jonathon Knapp,Dr. Smith's Biochemistry course is comprehensive and well-taught.
+Dr. Emma Wilson,1,3,Yes,5,Mary Kelly,Dr. Wilson ensures that students grasp the key concepts of Linear Algebra through practical examples.
+Dr. Alice Smith,4,5,No,3,David Dixon,Organic Chemistry with Dr. Smith is tough but manageable with her guidance.
+Dr. Carol Lee,4,4,No,2,Brittany Cuevas,Prof. Johnson's Data Structures class is challenging but rewarding. His teaching style is interactive and he encourages problem-solving.
+Dr. Carol Lee,5,4,No,1,Monica Bailey,"Data Structures is a difficult course, but Prof. Johnson's clear explanations make it manageable."
+Prof. Bob Johnson,4,5,No,2,Jeffrey Horton,Prof. Johnson's Machine Learning course is cutting-edge and informative. He integrates current research into his lectures.
+Dr. Carol Lee,3,2,Yes,3,Maria Byrd,Prof. Johnson's teaching style in CS101 is interactive and engaging.
+Prof. Bob Johnson,5,5,No,1,Justin Mullen,Machine Learning with Prof. Johnson is challenging but very educational.
+Prof. Bob Johnson,3,2,Yes,4,Lucas Gonzalez,CS101 with Prof. Johnson is a great introductory course. He makes complex concepts easy to understand.
+Dr. Emma Wilson,3,3,Yes,5,Michael Flynn,Dr. Wilson's Statistics course is challenging but rewarding.
+Prof. Bob Johnson,1,4,No,4,Dennis Huffman,Prof. Johnson's Data Structures course is well-taught and highly informative.
+Dr. Alice Smith,1,4,No,3,Harold Ellis,Dr. Smith's Biochemistry course is comprehensive and well-taught.
+Dr. Carol Lee,5,5,No,2,David Wilson,Prof. Johnson's Machine Learning course is excellent for understanding modern AI techniques.
+Prof. Bob Johnson,3,5,No,5,Laura Henderson,Prof. Johnson's Machine Learning course is excellent for understanding modern AI techniques.
+Prof. David Brown,2,3,Yes,5,Dylan Lopez,Prof. Brown's Cognitive Science course is excellent for understanding the mind.
+Dr. Emma Wilson,5,3,Yes,1,Robert Maynard,Dr. Wilson ensures that students grasp the key concepts of Linear Algebra through practical examples.
+Dr. Alice Smith,4,5,No,4,Jill Jackson,Dr. Smith's Organic Chemistry course is demanding but very educational. Her labs are particularly helpful for understanding complex reactions.
+Dr. Carol Lee,1,2,Yes,3,Carol Ellis,Prof. Johnson's teaching style in CS101 is interactive and engaging.
+Prof. David Brown,1,2,Yes,2,Samantha Richardson,Prof. Brown's teaching in Introduction to Psychology is excellent.
+Dr. Alice Smith,4,4,No,4,Ronald Potter,Dr. Smith's Biochemistry course is intense but fascinating. She connects biochemical concepts to real-world applications.
+Dr. Alice Smith,5,5,No,1,Xavier Rowe,Dr. Smith's Organic Chemistry course is demanding but very educational. Her labs are particularly helpful for understanding complex reactions.
+Prof. David Brown,3,3,Yes,3,Carol Taylor,Prof. Brown's Cognitive Science course is thought-provoking and challenging. He encourages critical thinking and discussion.
+Dr. Emma Wilson,4,3,Yes,3,Joshua Morris,"Statistics can be dry, but Dr. Wilson makes it interesting and relevant."
+Prof. David Brown,4,4,No,1,Rachel Sellers,Prof. Brown's Advanced Psychology course is highly educational.
+Prof. Bob Johnson,1,5,No,5,Frank Wright,Machine Learning with Prof. Johnson is challenging but very educational.
+Prof. Bob Johnson,1,5,No,1,Bernard Norton,Machine Learning with Prof. Johnson is challenging but very educational.
+Prof. David Brown,4,3,Yes,5,John Perkins,Prof. Brown's Cognitive Science course is excellent for understanding the mind.
+Dr. Alice Smith,3,4,No,5,Jennifer Donaldson,Biochemistry with Dr. Smith is difficult but very insightful.
+Dr. Carol Lee,3,4,No,4,Bianca Phelps,Prof. Johnson's Data Structures course is well-taught and highly informative.
+Dr. Emma Wilson,1,4,No,2,Timothy Moore,Dr. Wilson's Calculus I course is comprehensive and well-structured. She breaks down complex concepts into easily understandable segments.
+Dr. Alice Smith,3,3,Yes,2,Timothy Hill,Chemistry 101 with Dr. Smith is a solid introduction to the subject.
+Dr. Emma Wilson,1,3,Yes,2,Eric Lyons,"Linear Algebra with Dr. Wilson is a tough course, but her structured approach helps a lot."
+Dr. Emma Wilson,5,3,Yes,5,Blake Wheeler,Dr. Wilson's Statistics course is thorough and detailed. Her explanations are clear and she offers plenty of practical applications.
+Dr. Emma Wilson,2,3,Yes,4,Jennifer Anderson MD,Dr. Wilson's Statistics course is thorough and detailed. Her explanations are clear and she offers plenty of practical applications.
+Dr. Emma Wilson,1,4,No,4,Breanna Ayala,"Calculus I with Dr. Wilson is rigorous, but her teaching methods are very effective."

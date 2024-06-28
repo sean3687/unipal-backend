@@ -1,0 +1,17 @@
+cachetools==5.3.3
+fastapi==0.111.0
+Flask==3.0.3
+Flask_Bcrypt==1.0.1
+Flask_Cors==4.0.1
+Flask_Login==0.6.3
+Flask_PyMongo==2.3.0
+flask_session==0.8.0
+langchain==0.2.3
+langchain_core==0.2.5
+langchain_groq==0.1.5
+langchain_openai==0.1.8
+pandas==2.2.2
+pymongo==4.7.3
+python-dotenv==1.0.1
+Requests==2.32.3
+streamlit==1.35.0
