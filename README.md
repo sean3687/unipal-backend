@@ -46,7 +46,7 @@ Follow this https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubun
 ### Set up Server
 1. Install nginx: ```sudo apt install nginx```
 2. Edit the server configuration file: ```sudo nano /etc/nginx/sites-available/default```
-3. Change the server section as follows -
+3. Change the server section as follows (change your IPv4 public IP under server name as mentioned) -
    server {
 
         listen 443 ssl;
