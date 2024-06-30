@@ -36,17 +36,47 @@
 3. Run the following command: ```source venv/bin/activate```
 4. Download libraries: ```pip install -r requirements.txt```
 
+### Install Mongodb 
+Follow this https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+
+### Generate a self signed certificate for HTTPS connection 
+1. Type sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/selfsigned.key -out /etc/ssl/certs/selfsigned.crt
+2. Follow the prompts to fill in details like country, organization, and common name (use your EC2 public IP here)
+
 ### Set up Server
 1. Install nginx: ```sudo apt install nginx```
 2. Edit the server configuration file: ```sudo nano /etc/nginx/sites-available/default```
-3. Add the following under location:
+3. Change the server section as follows -
+   server {
 
-        proxy_pass http://127.0.0.1:5000
-        include proxy_params;
+        listen 443 ssl;
+        listen [::]:443 ssl default_server;
 
-4. Run the following command to apply the updates: ```sudo systemctl restart nginx```
-5. Navigate to the project directory, then app directory
-6. Run the flask application: ```python app.py```
+        server_name public_IPv4_of_your_EC2_instance;
+
+        ssl_certificate /etc/ssl/certs/selfsigned.crt;
+        ssl_certificate_key /etc/ssl/private/selfsigned.key;
+
+        root /var/www/html;
+      
+        # Add index.php to the list if you are using PHP
+        index index.html index.htm index.nginx-debian.html;
+
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                proxy_pass http://127.0.0.1:5000;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+                include /etc/nginx/proxy_params;
+        }
+}
+
+5. Run the following command to apply the updates: ```sudo systemctl restart nginx```
+6. Navigate to the project directory, then app directory
+7. Run the flask application: ```python app.py```
 
 ### Connect the front-end to the cloud API
 1. Note and save the IPv4 of the EC2 instance
