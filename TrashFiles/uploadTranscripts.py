@@ -154,4 +154,4 @@ def viewFile(fileName):
     
     
 if __name__ == "__main__":
-    app.run(ssl_context=('/etc/ssl/certs/selfsigned.crt', '/etc/ssl/private/selfsigned.key'))
+    app.run(debug=True)

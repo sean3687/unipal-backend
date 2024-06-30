@@ -61,5 +61,4 @@ def login():
 
 
 if __name__ == "__main__":
-    #app.run(debug=True, port=8080)  # Adjust port as necessary
-    app.run(ssl_context=('/etc/ssl/certs/selfsigned.crt', '/etc/ssl/private/selfsigned.key'))
+    app.run(debug=True, port=8080)  # Adjust port as necessary
