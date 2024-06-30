@@ -217,4 +217,4 @@ def uri_not_found(e) -> tuple:
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(ssl_context=('/etc/ssl/certs/selfsigned.crt', '/etc/ssl/private/selfsigned.key'))
