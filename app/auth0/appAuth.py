@@ -68,7 +68,7 @@ def build_cors_response(response=None):
     """
     if not response:
         response = make_response()
-    response.headers.set('Access-Control-Allow-Origin', 'http://localhost:5173')
+    response.headers.set('Access-Control-Allow-Origin', 'https://unipal-frontend.vercel.app/')
     response.headers.set('Access-Control-Allow-Methods', 'POST, OPTIONS')
     response.headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization')
     response.headers.set('Access-Control-Allow-Credentials', 'true')
